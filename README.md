@@ -1,8 +1,8 @@
 # 📦 loadstring
 
 A lightweight Node.js utility to execute JavaScript from strings or URLs — inspired by Lua's `loadstring()`.
-Note: Requires Node v20 or higher
 ---
+### Note: Requires Node v20 or higher
 
 ## 🚀 Features
 
