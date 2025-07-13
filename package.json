@@ -1,11 +1,29 @@
 {
   "name": "loadstring",
-  "version": "2.0.0",
-  "description": "",
+  "version": "3.0.0",
+  "description": "Execute JavaScript from strings or URLs — inspired by Lua's loadstring().",
   "license": "MIT",
   "author": "nandubit",
   "type": "commonjs",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NanduBit/loadString.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NanduBit/loadString/issues"
+  },
+  "homepage": "https://github.com/NanduBit/loadString#readme",
+  "keywords": [
+    "loadstring",
+    "eval",
+    "javascript",
+    "load",
+    "remote-code",
+    "sandbox",
+    "lua-style",
+    "load-from-url"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
