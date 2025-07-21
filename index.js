@@ -4,8 +4,8 @@
  */
 function loadString(code) {
   try {
-    const fn = new Function(code);
-    fn();
+    const fn = new Function('require', code);
+    fn(require);
   } catch (err) {
     console.error("❌ Error running code:", err);
   }
@@ -26,8 +26,8 @@ async function loadStringFromURL(url) {
   try {
     const response = await fetch(url);
     const code = await response.text();
-    const fn = new Function(code);
-    fn();
+    const fn = new Function('require', code);
+    fn(require);
   } catch (err) {
     console.error("❌ Error fetching or running code:", err);
   }
