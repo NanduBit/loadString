@@ -1,6 +1,6 @@
 {
   "name": "loadstring",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Execute JavaScript from strings or URLs — inspired by Lua's loadstring().",
   "license": "MIT",
   "author": "nandubit",
