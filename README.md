@@ -1,4 +1,6 @@
-# 📦 loadstring
+![20250821_1716_Sleek LoadString Banner_simple_compose_01k3675a5aey7aejb6q20f9mzd~2](https://github.com/user-attachments/assets/136bd6c4-9a0a-4795-8015-cb251faadc1b)
+
+<h1 align="center">💉 loadstring</h1>
 
 A lightweight Node.js utility to execute JavaScript from strings or remote URLs — inspired by Lua's `loadstring()`.
 
@@ -37,8 +39,8 @@ const { loadString } = require('loadstring');
 loadString(`console.log("Hello from string!");`);
 
 loadString(`
-  console.log("Line 1");
-  console.log("Line 2");
+  console.log("Log 1");
+  console.log("Log 2");
 `);
 ```
 
@@ -51,6 +53,7 @@ const { loadStringFromURL } = require('loadstring');
 // import { loadStringFromURL } from 'loadstring';
 
 loadStringFromURL('https://example.com/script.js');
+// We recommend using pastebin links to inject yiur code via link (make sure u have pastebin link to the raw code)
 ```
 
 If `https://example.com/script.js` contains:
